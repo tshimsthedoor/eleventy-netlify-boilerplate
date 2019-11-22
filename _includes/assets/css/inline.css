@@ -1,7 +1,7 @@
 :root {
 	--turkey: #FFF0EB;
 	--white: white;
-	--blue: green;
+	--blue: rgb(22, 25, 241);
 }
 
 *, *:before, *:after {
@@ -174,7 +174,7 @@ textarea {
 }
 
 button {
-	border: 1px solid var(--blue);
+	border: 10px solid var(--blue);
 	background-color: var(--blue);
 	color: var(--white);
 	cursor: pointer;
