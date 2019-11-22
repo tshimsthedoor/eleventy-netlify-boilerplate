@@ -24,7 +24,7 @@ jobs:
             npm install
             gem install percy-cli
       
-      # run test!
+      # run tests!
       - run:
         name: run tests
         command: |
