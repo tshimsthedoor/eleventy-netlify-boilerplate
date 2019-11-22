@@ -174,7 +174,7 @@ textarea {
 }
 
 button {
-	border: 1px solid var(--blue);
+	border: 10px solid var(--blue);
 	background-color: var(--blue);
 	color: var(--white);
 	cursor: pointer;
