@@ -17,15 +17,15 @@ jobs:
 
     steps: 
       - checkout
-      
+
       - run: 
           name: install dependency
-          command: |
+          command: 
             npm install
             gem install percy-cli
       
       # run test!
-      -run:
+      - run:
         name: run tests
         command: |
         npm run build
